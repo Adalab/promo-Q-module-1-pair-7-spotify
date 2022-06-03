@@ -1,0 +1,28 @@
+/* body {
+    margin: 4px;
+    border-radius: 8px;   
+} */
+
+.header .image {
+    background-color: black;
+    height: 50px;
+    width: 120px;
+
+}
+.nav .button .image {
+    height: 50px;
+    width: 50px;
+}
+
+.header {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    background-color: black;
+    border: solid black;
+
+}
