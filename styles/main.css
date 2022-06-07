@@ -4,64 +4,73 @@
 } */
 
 * {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 :root {
-    --brand-color: rgb(82, 156, 241);
+  --brand-color: rgb(82, 156, 241);
 }
-
+/* MOBILE FIRST  */
 .header .image {
-    background-color: black;
-    height: 50px;
-    
-    
-
+  background-color: black;
+  height: 3rem;
 }
 .nav .button .image {
-    height: 50px;
-    width: 50px;
+  height: 3rem;
+  width: 3rem;
 }
 
 .header {
-    background-color: black;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-    position: sticky;
-    top: 0;
+  background-color: black;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
 }
 .button-header {
-    background-color: black;
-    border: solid black;
+  background-color: black;
+  border: solid black;
 }
 .button-planning {
-    background: rgb(38, 183, 88);
-    border-radius: 30px;
-    border: none;
-    color: white;
-    width: 95%;
-    height: 50%;
+  background: rgb(38, 183, 88);
+  border-radius: 30px;
+  border: none;
+  color: white;
+  width: 25rem;
+  height: 3rem;
+  margin: 2% 0 2% 0;
 }
 
 .hero {
-    background: var(--brand-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 10px 25px 10px;
+  background: var(--brand-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20% 2% 5% 2%;
 }
-h1{
-    font-size: 2em;
-    font-weight: bold;
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 4% 1% 4% 1%;
+  text-align: start;
+  font-weight: bold;
 }
 h3 {
-    font-size: 1.17em;
-    font-weight: bold;
+  font-size: 1.17em;
+  font-weight: bold;
+  margin-bottom: 4%;
 }
 
-h1, h3, p {
-    color: white;
+h1,
+h3,
+p {
+  color: white;
 }
+
+.terms {
+}
+
+/* MOBILE FIRST  */
